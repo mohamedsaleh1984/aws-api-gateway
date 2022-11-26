@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32802.440
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayLambda.Demo", "src\AWS-API-Gateway\GatewayLambda.Demo.csproj", "{937FF229-5483-4FB6-BC74-8935B00C8C6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayLambda.Demo.Tests", "test\AWS-API-Gateway.Tests\GatewayLambda.Demo.Tests.csproj", "{7596EA19-6514-4CB5-B2A9-7C0945A2C69C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{937FF229-5483-4FB6-BC74-8935B00C8C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{937FF229-5483-4FB6-BC74-8935B00C8C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{937FF229-5483-4FB6-BC74-8935B00C8C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{937FF229-5483-4FB6-BC74-8935B00C8C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7596EA19-6514-4CB5-B2A9-7C0945A2C69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7596EA19-6514-4CB5-B2A9-7C0945A2C69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7596EA19-6514-4CB5-B2A9-7C0945A2C69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7596EA19-6514-4CB5-B2A9-7C0945A2C69C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F30AD0A3-17CE-4DEB-ABE8-6890778EB039}
+	EndGlobalSection
+EndGlobal
