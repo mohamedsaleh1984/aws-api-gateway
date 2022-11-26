@@ -9,8 +9,12 @@ namespace GatewayLambda.Demo
      Deploy:
      dotnet lambda deploy-function GatewayLambdaDemo
 
-    GateWay Link
-    https://gn7pzmiiwl.execute-api.us-east-1.amazonaws.com/prod
+    Gateway Link
+    https://3l86mkhi45.execute-api.us-east-1.amazonaws.com/prod
+
+    Make Sure when you create endpoints path
+    MARK """Use Lambda Proxy integration""" TRUE
+    To ensure passing serialized paramaters, query strings
 
      */
     public class Function
