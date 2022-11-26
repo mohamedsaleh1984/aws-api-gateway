@@ -7,7 +7,7 @@ namespace GatewayLambda.Demo
 {
     /*
      Deploy:
-     dotnet lambda deploy-function LambdaDemo
+     dotnet lambda deploy-function GatewayLambdaDemo
 
     GateWay Link
     https://gn7pzmiiwl.execute-api.us-east-1.amazonaws.com/prod
