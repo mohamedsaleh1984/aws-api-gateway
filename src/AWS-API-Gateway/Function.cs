@@ -25,8 +25,7 @@ namespace GatewayLambda.Demo
             return new APIGatewayProxyResponse
             {
                 StatusCode = 200,
-                Body = $"Use5r name passed : {name}",
-                IsBase64Encoded = false,
+                Body = $"User name passed : {name}",
             };
         }
     }
